@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Map</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="slccrime.css">
+  </head>
+  <body>
+  	<div id="wrapper">
+	  	<header>
+	  		<h1>SLC CRIME HEATMAP</h1>
+		</header>
+	  	<main>
+		    <div id="map"></div>
+		    <script src="script.js"></script>
+		    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD4kODOBdLGSAEXbMM85Ye17ZqxdhC3dcs&libraries=visualization&callback=initMap" async defer></script>
+		</main>
+		<footer>
+			<hr>
+			<h3>Developed by <a href="www.elijahgrubb.com">Elijah Grubb</a>. Based on data from Utah's <a href="opendata.utah.gov">Open Data</a> project.
+		</footer>
+	</div>
+  </body>
+</html>
