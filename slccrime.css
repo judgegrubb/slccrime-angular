@@ -2,8 +2,8 @@
 body {
     background-color: #FF3030;
     background-image: linear-gradient(to bottom, #FF3030, #FFFFFF 150%);
-    background-attachment: fixed;
-    background-attachment: scroll;
+    /* Need to fix this ://///// */
+    /*background-attachment: fixed*/
 
     position: absolute;
     top: 0;
